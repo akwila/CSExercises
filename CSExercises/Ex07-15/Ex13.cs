@@ -17,7 +17,8 @@ namespace CSExercises
             if (double.TryParse(basket, out value))
             {
                 double number1 = Convert.ToDouble(basket);
-                double output1 = Math.Ceiling(2.40 + number1 * 0.4);
+                double output1 = 2.40 + number1 * 0.4;
+                output1 = Math.Ceiling(output1 * 10) / 10;
                 Console.WriteLine("Total fare : {0:0.00}", output1);
             }
             else

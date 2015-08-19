@@ -13,10 +13,10 @@ namespace CSExercises
             int age = Convert.ToInt32(Console.ReadLine());
             string gender = "";
             if (tempgender == "M") {
-                if (age >= 45) { Console.WriteLine("Good morning Uncle " + name); }
+                if (age >= 40) { Console.WriteLine("Good morning Uncle " + name); }
                 else { Console.WriteLine("Good morning Mr. " + name); }
             } else if(tempgender == "F") {
-                if (age >= 45) { Console.WriteLine("Good morning Aunty " + name); }
+                if (age >= 40) { Console.WriteLine("Good morning Aunty " + name); }
                 else { Console.WriteLine("Good morning Ms. " + name); }
             }
             else { Console.WriteLine("Gender is not recognize"); }

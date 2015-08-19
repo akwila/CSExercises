@@ -7,7 +7,7 @@ namespace CSExercises
         {
             Console.Write("Please input km : ");
             Double km = Convert.ToDouble(Console.ReadLine());
-            km = km * 10; km = Math.Round(km); km = km / 10; // round process
+            km = km * 10; km = Math.Ceiling(km); km = km / 10; // round process
 
             Double charge = 0;
             if (km <= 0.5)
